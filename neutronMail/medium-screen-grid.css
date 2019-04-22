@@ -130,7 +130,7 @@
     display: grid;
     grid-template-columns: 1fr 1000px 1fr;
     grid-template-areas:
-            "line f-cont . .";
+            ". f-cont . ";
   }
   .foot-content{
     position: relative;
