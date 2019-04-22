@@ -1,4 +1,4 @@
-.main{
+main{
   display: grid;
   grid-template-columns: 1fr 1500px 1fr;
   grid-template-rows: auto;
@@ -52,7 +52,7 @@ article{
   height: 1900px;
   grid-area: content;
   display: grid;
-  grid-template-columns: auto;
+  grid-template-columns: 1500px;
   grid-template-rows: 455px 530px 690px 225px;
   grid-template-areas:
           "mount"
@@ -73,10 +73,11 @@ article{
           ". . . . ."
           ". button . . ."
           ". . . . .";
-  background-image: url("assets/background.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center bottom;
+
+}
+
+.main-pic > img{
+  width: 1490px;
 }
 
 .main-text{
