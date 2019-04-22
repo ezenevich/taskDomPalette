@@ -1,4 +1,4 @@
-@media (max-width: 1499px) and (min-width: 1024px) {
+@media (max-width: 1500px) and (min-width: 1024px) {
   main{
     display: grid;
     grid-template-columns: 1fr 1024px 1fr;

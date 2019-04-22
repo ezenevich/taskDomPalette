@@ -1,4 +1,4 @@
-@media (max-width: 1024px) and (min-width: 600px) {
+@media (max-width: 600px) {
   main{
     display: grid;
     grid-template-columns: 1fr 600px 1fr;
@@ -321,6 +321,6 @@
   }
 
   .foot-mail > div{
-   display: none;
+    display: none;
   }
 }
