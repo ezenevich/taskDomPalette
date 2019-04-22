@@ -280,11 +280,183 @@ nav > a{
   color: #959393;
 }
 
-.laptop-icons > img:nth-child(1){
-  margin-left: 33px;
-  margin-top: 10px;
+.laptop-icons > img{
+  margin-left: 22px;
+  margin-top: 15px;
 }
-.laptop-icons > img:nth-child(2){
-  margin-left: 33px;
+
+.laptop-slide > div:nth-of-type(1){
+  margin-top: 16px;
+  margin-left: 16px;
+  border-radius: 50%;
+  border: none;
+  width: 11px;
+  height: 11px;
+  background-color: #101010;
+}
+.laptop-slide > div:nth-of-type(2){
+  margin-top: 9px;
+  margin-left: 17px;
+  border-radius: 50%;
+  border: none;
+  width: 9px;
+  height: 9px;
+  background-color: #b7b7b7;
+}
+.laptop-slide > div:nth-of-type(3){
+  margin-top: 9px;
+  margin-left: 17px;
+  border-radius: 50%;
+  border: none;
+  width: 9px;
+  height: 9px;
+  background-color: #b7b7b7;
+}
+
+@font-face{
+  font-family: 'Malaga';
+  src: url('assets/Malaga OT Reg Italic.otf');
+  font-weight: normal;
+  font-style: normal;
+}
+.laptop-quote > pre{
+  margin-left: 10px;
   margin-top: 10px;
+  font-family: 'Malaga';
+  font-size: 16pt;
+  letter-spacing: -0.45px;
+  line-height: 26px;
+  color: #101010;
+}
+.laptop-caption > p{
+  margin-left: 10px;
+  margin-top: 12px;
+  font-family: 'Malaga';
+  font-size: 10pt;
+  color: #afafaf;
+}
+
+.laptop-headline > p{
+  margin-left: 78px;
+  margin-top: 4px;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 22pt;
+  letter-spacing: 0.4px;
+  color: #535353;
+}
+.laptop-text > pre{
+  margin-right: 39px;
+  margin-top: 7px;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 10pt;
+  font-weight: 500;
+  letter-spacing: 0.15px;
+  line-height: 18px;
+  text-align: right;
+  color: #9e9c9c;
+}
+
+.laptop-button > button:nth-of-type(1){
+  margin-left: 43px;
+  margin-top: 16px;
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+  height: 46px;
+  background-image: url("assets/app-store.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.laptop-button > button:nth-of-type(2){
+  margin-left: 7px;
+  margin-top: 16px;
+  border: none;
+  border-radius: 5px;
+  width: 150px;
+  height: 46px;
+  background-image: url("assets/play-market.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.laptop-text > div{
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  top: 295px;
+  transform: skewY(-7deg);
+  width: 1495px;
+  height: 500px;
+  background: linear-gradient(45deg, rgba(0,0,0,0) 0%, rgba(230, 230, 230, 0.5) 100%);
+}
+
+.laptop-text > div:after{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 325px;
+  transform: skewY(9deg);
+  width: 1495px;
+  height: 350px;
+  background-color: #ffffff;
+}
+
+.donate-text > p:nth-of-type(1){
+  margin-left: 60px;
+  margin-top: 25px;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 22pt;
+  letter-spacing: 0.4px;
+  line-height: 18px;
+  color: #535353;
+}
+.donate-text > p:nth-of-type(2){
+  margin-left: 32px;
+  margin-top: -14px;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 18pt;
+  letter-spacing: 0.2px;
+  line-height: 18px;
+  color: #7c7c7c;
+}
+
+.donate-button > button:nth-of-type(1){
+  margin-left: 110px;
+  margin-top: 12px;
+  width: 203px;
+  height: 47px;
+  border-radius: 30px;
+  border: none;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
+  font-size: 11pt;
+  letter-spacing: 0.3px;
+  vertical-align: center;
+  color: #ffffff;
+  background: linear-gradient(135deg, #636b92 5%, #5f2e69 95%);
+  box-shadow: 0 7px 20px  #99a8d2;
+}
+.donate-button > button:nth-of-type(2){
+  margin-left: 38px;
+  margin-top: 12px;
+  width: 138px;
+  height: 47px;
+  border-radius: 30px;
+  border: none;
+  font-family: 'Titillium Web', sans-serif;
+  font-weight: bold;
+  font-size: 11pt;
+  letter-spacing: 0.3px;
+  vertical-align: center;
+  color: #ffffff;
+  background: linear-gradient(135deg, #37c3ea 15%, #5e7bea 100%);
+  box-shadow: 0 7px 20px #83ddd9;
+}
+
+.foot-slogan > p{
+  margin-left: 5px;
+  margin-top: 16px;
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 9pt;
+  color: #7a7a7a;
 }
