@@ -1,0 +1,28 @@
+.content{
+  display: grid;
+  grid-template-columns: 1fr 250px 230px 340px 340px 1fr;
+  grid-template-rows: 40px 340px 340px 40px;
+  grid-template-areas:
+          ". .   . .   .   ."
+          ". pal . can can ."
+          ". col . can can ."
+          ". .   . .   .   .";
+}
+
+.pallete{
+   position: relative;
+   grid-area: pal;
+   border: 1px solid magenta;
+ }
+
+.color{
+  position: relative;
+  grid-area: col;
+  border: 1px solid magenta;
+}
+
+.canvas{
+  position: relative;
+  grid-area: can;
+  border: 1px solid magenta;
+}
