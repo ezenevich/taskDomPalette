@@ -1,28 +1,30 @@
 .content{
   display: grid;
-  grid-template-columns: 1fr 250px 230px 340px 340px 1fr;
+  grid-template-columns: 1fr 220px 260px 340px 340px 1fr;
   grid-template-rows: 40px 340px 340px 40px;
   grid-template-areas:
           ". .   . .   .   ."
-          ". pal . can can ."
-          ". col . can can ."
+          ". tool . can can ."
+          ". pal  . can can ."
           ". .   . .   .   .";
 }
 
-.pallete{
+.tools{
    position: relative;
-   grid-area: pal;
-   border: 1px solid magenta;
+   grid-area: tool;
  }
 
-.color{
+.palette{
   position: relative;
-  grid-area: col;
-  border: 1px solid magenta;
+  grid-area: pal;
 }
 
 .canvas{
   position: relative;
   grid-area: can;
-  border: 1px solid magenta;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 10px;
 }
+

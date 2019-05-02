@@ -1,0 +1,41 @@
+.object{
+  width: 220px;
+  height: 220px;
+  background-color: lightgray;
+}
+
+.color-tools{
+  width: 220px;
+  height: 110px;
+  border: 1px solid lightgray;
+}
+
+.position-tools{
+   width: 220px;
+   height: 110px;
+   border: 1px solid lightgray;
+ }
+
+.change-color{
+  width: 220px;
+  height: 110px;
+  border: 1px solid lightgray;
+}
+
+.palette-color{
+  width: 220px;
+  height: 110px;
+  border: 1px solid lightgray;
+}
+
+.fas{
+  color: #848484;
+  margin: 20px 30px 10px 20px;
+}
+
+span{
+  color: #848484;
+  font-family: Gadugi;
+  font-weight: 500;
+  font-size: 15px;
+}
