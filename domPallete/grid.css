@@ -28,3 +28,9 @@
   grid-gap: 10px;
 }
 
+.palette-color{
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+  grid-template-rows: repeat(2, 50px);
+  grid-gap: 1fr;
+}

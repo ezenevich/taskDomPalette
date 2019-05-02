@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Pallete</title>
+  <title>Palette</title>
   <link rel="stylesheet" href="grid.css">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
@@ -13,37 +13,74 @@
   <main class="content">
 
     <div class="tools">
+
       <div class="color-tools">
-        <i class="fas fa-fill-drip"></i>
-        <span>Paint bucket</span>
+        <button class="tools-button" id="bucket">
+          <i class="fas fa-fill-drip"></i>
+          <span>Paint bucket</span>
+        </button>
+
         <br>
+
+        <button class="tools-button" id="col-piker">
         <i class="fas fa-eye-dropper"></i>
         <span>Choose color</span>
+        </button>
       </div>
+
       <div class="position-tools">
+        <button class="tools-button" id="move">
         <i class="fas fa-arrows-alt"></i>
         <span>Move</span>
+        </button>
+
         <br>
+
+        <button class="tools-button" id="transform">
         <i class="fas fa-exchange-alt"></i>
         <span>Transform</span>
+        </button>
       </div>
+
     </div>
 
     <div class="palette">
-      <div class="change-color"></div>
-      <div class="palette-color"></div>
+
+      <div class="change-color">
+
+          <div class="circle current-color"></div>
+          <p class="cur-col">Current color</p>
+
+        <br>
+
+        <div class="circle prev-color"></div>
+        <p class="prev-col">Prev color</p>
+
+      </div>
+
+      <div class="palette-color">
+        <div data-atr="red"       class="circle2" style="background-color: red"></div>
+        <div data-atr="green"     class="circle2" style="background-color: green"></div>
+        <div data-atr="red"       class="circle2" style="background-color: blue"></div>
+        <div data-atr="black"     class="circle2" style="background-color: black"></div>
+        <div data-atr="yellow"    class="circle2" style="background-color: yellow"></div>
+        <div data-atr="cyan"      class="circle2" style="background-color: cyan"></div>
+        <div data-atr="magenta"   class="circle2" style="background-color: magenta"></div>
+        <div data-atr="lightgrey" class="circle2" style="background-color: lightgrey"></div>
+      </div>
+
     </div>
 
     <div class="canvas">
       <div class="object" id="ob1"></div>
-      <div class="object"></div>
-      <div class="object"></div>
-      <div class="object"></div>
-      <div class="object"></div>
-      <div class="object"></div>
-      <div class="object"></div>
-      <div class="object"></div>
-      <div class="object"></div>
+      <div class="object" id="ob2"></div>
+      <div class="object" id="ob3"></div>
+      <div class="object" id="ob4"></div>
+      <div class="object" id="ob5"></div>
+      <div class="object" id="ob6"></div>
+      <div class="object" id="ob7"></div>
+      <div class="object" id="ob8"></div>
+      <div class="object" id="ob9"></div>
     </div>
 
   </main>
