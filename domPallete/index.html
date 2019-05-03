@@ -11,7 +11,7 @@
   <script type="text/javascript" src="tools.js"></script>
   <script type="text/javascript" src="palette.js"></script>
 </head>
-<body onload="colorStartInit()">
+<body onload="colorStartInit(); canvasStartInit()">
   <main class="content">
 
     <div class="tools">
@@ -74,15 +74,15 @@
     </div>
 
     <div class="canvas">
-      <div class="object" id="ob1"></div>
-      <div class="object" id="ob2"></div>
-      <div class="object" id="ob3"></div>
-      <div class="object" id="ob4"></div>
-      <div class="object" id="ob5"></div>
-      <div class="object" id="ob6"></div>
-      <div class="object" id="ob7"></div>
-      <div class="object" id="ob8"></div>
-      <div class="object" id="ob9"></div>
+      <div data-atr="0" class="object" id="ob1" onclick="changeObject(this)"></div>
+      <div data-atr="0" class="object" id="ob2" onclick="changeObject(this)"></div>
+      <div data-atr="0" class="object" id="ob3" onclick="changeObject(this)"></div>
+      <div data-atr="0" class="object" id="ob4" onclick="changeObject(this)"></div>
+      <div data-atr="0" class="object" id="ob5" onclick="changeObject(this)"></div>
+      <div data-atr="0" class="object" id="ob6" onclick="changeObject(this)"></div>
+      <div data-atr="0" class="object" id="ob7" onclick="changeObject(this)"></div>
+      <div data-atr="0" class="object" id="ob8" onclick="changeObject(this)"></div>
+      <div data-atr="0" class="object" id="ob9" onclick="changeObject(this)"></div>
     </div>
 
   </main>

@@ -15,3 +15,5 @@ function getColor(color) {
         document.getElementById("prev-color").style.backgroundColor = currentColor;
     }
 }
+
+
