@@ -102,3 +102,21 @@ function canvasStartInit() {
 
 }
 
+
+function KeyPress(e) {
+    let eventOb = window.event? event : e;
+    if (eventOb.keyCode === 66 && eventOb.shiftKey) {
+        localStorage.setItem('currentTool', "bucket");
+    }
+    if (eventOb.keyCode === 80 && eventOb.shiftKey) {
+        localStorage.setItem('currentTool', "color-picker");
+    }
+    if (eventOb.keyCode === 77 && eventOb.shiftKey) {
+        localStorage.setItem('currentTool', "move");
+    }
+    if (eventOb.keyCode === 84 && eventOb.shiftKey) {
+        localStorage.setItem('currentTool', "transform");
+    }
+}
+
+document.onkeydown = KeyPress;
