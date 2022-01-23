@@ -1,7 +1,7 @@
 .content{
   display: grid;
   grid-template-columns: 1fr 220px 260px 340px 340px 1fr;
-  grid-template-rows: 40px 340px 340px 40px;
+  grid-template-rows: 20px 340px 340px 20px;
   grid-template-areas:
           ". .   . .   .   ."
           ". tool . can can ."
