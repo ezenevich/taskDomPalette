@@ -58,6 +58,7 @@ p{
   text-align: left;
 }
 button:focus {
+  color: red;
   outline: none;
 }
 
