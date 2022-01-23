@@ -1,0 +1,38 @@
+.content{
+  display: grid;
+  grid-template-columns: 1fr 220px 260px 340px 340px 1fr;
+  grid-template-rows: 40px 340px 340px 40px;
+  grid-template-areas:
+          ". .   . .   .   ."
+          ". tool . can can ."
+          ". pal  . can can ."
+          ". .   . .   .   .";
+}
+
+.tools{
+   position: relative;
+   grid-area: tool;
+ }
+
+.palette{
+  position: relative;
+  grid-area: pal;
+}
+
+.canvas{
+  position: relative;
+  grid-area: can;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.palette-color{
+  display: grid;
+  grid-template-columns: repeat(4, 50px);
+  grid-template-rows: repeat(2, 50px);
+  grid-gap: 1fr;
+}
+© 2022 GitHub, Inc.
+Terms
